@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+}
+
+body{
+    align-items: center;
+    
+    justify-items: center;
+    background-color: rgb(195, 179, 210);
+}
+
+
+h1{
+    background-color: rgb(58, 49, 49);
+    color: white;
+    width: 100%;
+    text-align: center;
+    align-content: center;
+    height: 5rem;
+    
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    /* align-items: center;
+    align-content: center; */
+}
+
+.choice{
+    height: 200px;
+    width: 200px;
+    /* border: 2px solid black; */
+    margin-top: 3rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: black;
+
+}
+
+img{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.score-board{
+    border: 2px solid black;
+    height: 100px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0rem;
+    
+}
+
+.score{
+font-size: 2rem;
+font-weight: 700;
+padding: 2rem;
+
+}
+.msg-box{
+    display: flex;
+    font-size: 2rem;
+    margin-top: 2rem;
+    background-color: rgb(136, 78, 78);
+    /* border: 2px solid black; */
+    color: rgb(11, 11, 11);
+    height: 5rem;
+    align-content: center;
+    justify-items: center;
+    border-radius: 15px;
+    width: 400px;
+}
+.userpick,.comppick {
+    /* border: 2px solid black; */
+    border-radius: 15px;
+    width: 150px;
+    align-content: center;
+    justify-items: center;
+
+}
+
+
+button{
+    height: 50px;
+    width: 100px;
+    margin-top: 2rem;
+    background-color: rgb(52, 162, 63);
+    border-radius: 10px;
+}
+/* #newgame{
+    display: none;
+} */
+
+
+.target{
+    border: 2px solid black;
+    height: 20px;
+    width: 100px;
+    border-bottom: white;
+    margin-top: 1rem;
+}
+
+.newgame{
+    margin-top: 4rem;
+    /* display: none; */
+}
+.result{
+    border: 2px solid black;
+    height: 40rem;
+    width: 30rem;
+    align-content: center;
+    /* display: none; */
+}
+#finish{
+    font-weight: 700;
+    
+}
+.hide{
+    /* display: none; */
+}
